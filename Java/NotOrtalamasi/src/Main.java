@@ -9,6 +9,7 @@ public class Main {
         double ortalama;
         String sonuc;
 
+        //kullaıcıdan veri alma sırası
         System.out.print("Matematik dersi notunuzu girin: ");
         mat=inp.nextInt();
 
@@ -27,10 +28,12 @@ public class Main {
         System.out.print("Muzik dersi notunuzu girin: ");
         muzik=inp.nextInt();
 
+        //ortalama hesapla
         toplam=(mat+fizik+kimya+turk+tarih+muzik);
         ortalama=toplam/6.0;
         System.out.println("\nNotlarinizin ortalamasi: "+ortalama);
 
+        //sorgu sırası
         sonuc=(ortalama>=60)?"Sinifi Gecti":"Sinifta Kaldi";
         System.out.println(sonuc);
 
