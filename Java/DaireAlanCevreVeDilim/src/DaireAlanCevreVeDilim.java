@@ -26,12 +26,5 @@ public class DaireAlanCevreVeDilim {
         System.out.println("Dairenin Cevresi: "+cevre);
         System.out.println("Daire Dilimi: "+dilim);
 
-
-
-
-
-
-
-
     }
 }
