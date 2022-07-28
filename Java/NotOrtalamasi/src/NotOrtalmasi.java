@@ -37,5 +37,6 @@ public class NotOrtalmasi {
         sonuc=(ortalama>=60)?"Sinifi Gecti":"Sinifta Kaldi";
         System.out.println(sonuc);
 
+        
     }
 }
