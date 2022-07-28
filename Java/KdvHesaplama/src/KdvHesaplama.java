@@ -23,10 +23,5 @@ public class KdvHesaplama {
         System.out.println("KDV tutari: "+kdvTutari);
         System.out.println("KDV'li yeni para: "+kdvliPara);
 
-
-
-
-
-
     }
 }
